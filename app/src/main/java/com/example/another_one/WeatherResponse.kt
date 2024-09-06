@@ -11,9 +11,10 @@ data class Main(
 
 val temp: Float,
     val humidity: Int,
-    val temp_min:Float,
-    val temp_max:Float
+    val wind: Float,
+
 )
+
 
 data class Weather(
     val description: String,
